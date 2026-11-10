@@ -1,5 +1,5 @@
 ---
-description: Welcome to your team’s developer platform
+description: Welcome to code4fun — your ultimate shared learning space for code
 icon: house
 layout:
   width: wide
@@ -23,164 +23,196 @@ layout:
     visible: false
 ---
 
-# Developer Platform
+# code4fun Platform
 
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask code4fun AI...</button>
 
-<button type="button" class="button secondary" data-action="ask" data-query="How do I get started?" data-icon="rocket-launch">Get started</button><button type="button" class="button secondary" data-action="ask" data-query="How do I authenticate with the developer platform?" data-icon="key">Authenticate</button><button type="button" class="button secondary" data-action="ask" data-query="How do I integrate with my stack?" data-icon="code">Integrate</button><button type="button" class="button secondary" data-action="ask" data-query="How do I contribute?" data-icon="code-pull-request">Contribute</button>
+<button type="button" class="button secondary" data-action="ask" data-query="Where should I start learning?" data-icon="rocket-launch">Start Learning</button>
+<button type="button" class="button secondary" data-action="ask" data-query="Which programming language should I learn first?" data-icon="code">Choose Language</button>
+<button type="button" class="button secondary" data-action="ask" data-query="How can I contribute docs to code4fun?" data-icon="code-pull-request">Contribute Docs</button>
 
-&#x20;
+---
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-leaf" style="color:$primary;">:leaf:</i></h4></td><td><strong>No code</strong></td><td>Get started with the developer platform in 5 minutes.</td><td><a href="https://app.gitbook.com/s/v5aJLZsRK3QLZFZGuooq/getting-started/quickstart">Quickstart</a></td><td><a href=".gitbook/assets/no-code.jpg">no-code.jpg</a></td></tr><tr><td><h4><i class="fa-server" style="color:$primary;">:server:</i></h4></td><td><strong>Hosted</strong></td><td>Learn more about hosting the developer platform.</td><td><a href="https://app.gitbook.com/s/v5aJLZsRK3QLZFZGuooq/getting-started/your-first-project">Your first project</a></td><td><a href=".gitbook/assets/hosted.jpg">hosted.jpg</a></td></tr><tr><td><h4><i class="fa-terminal" style="color:$primary;">:terminal:</i></h4></td><td><strong>API reference</strong></td><td>Browse, test, and implement APIs.</td><td><a href="https://app.gitbook.com/o/fSOkApCvgGWsQgR9gt1K/s/CQLXP7MLRTOAn8doz01q/">API Reference</a></td><td><a href=".gitbook/assets/api-reference.jpg">api-reference.jpg</a></td></tr></tbody></table>
+## Explore Learning Paths
 
-&#x20;
+Whether you're writing your very first line of code or scaling distributed microservices, explore our structured docs below.
 
-&#x20;
+### Core Languages & Fundamentals
+
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th>Icon</th>
+      <th>Topic</th>
+      <th>Description</th>
+      <th data-hidden data-card-target data-type="content-ref">Link</th>
+      <th data-hidden data-card-cover data-type="files">Cover</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4><i class="fa-code" style="color:$primary;">:code:</i></h4></td>
+      <td><strong>Python</strong></td>
+      <td>From basic scripts to automation and data analysis in an intuitive format.</td>
+      <td><a href="getting-started/python">Start Python</a></td>
+      <td><a href=".gitbook/assets/python.jpg">python.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-js" style="color:$primary;">:js:</i></h4></td>
+      <td><strong>JavaScript & TypeScript</strong></td>
+      <td>Master the language of the modern web from core syntax to typing.</td>
+      <td><a href="getting-started/javascript">Start JS/TS</a></td>
+      <td><a href=".gitbook/assets/js.jpg">js.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-cubes" style="color:$primary;">:cubes:</i></h4></td>
+      <td><strong>C++ & Rust</strong></td>
+      <td>Systems programming, memory safety, and high-performance mechanics.</td>
+      <td><a href="getting-started/systems">Start Systems</a></td>
+      <td><a href=".gitbook/assets/systems.jpg">systems.jpg</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Engineering Domains
+
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th>Icon</th>
+      <th>Domain</th>
+      <th>Description</th>
+      <th data-hidden data-card-target data-type="content-ref">Link</th>
+      <th data-hidden data-card-cover data-type="files">Cover</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4><i class="fa-laptop-code" style="color:$primary;">:laptop-code:</i></h4></td>
+      <td><strong>Frontend Development</strong></td>
+      <td>Build responsive, interactive UIs using HTML, CSS, React, and Next.js.</td>
+      <td><a href="domains/frontend">Explore Frontend</a></td>
+      <td><a href=".gitbook/assets/frontend.jpg">frontend.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-server" style="color:$primary;">:server:</i></h4></td>
+      <td><strong>Backend Engineering</strong></td>
+      <td>Design APIs, authentication, and database schemas with Node.js, Go, and Python.</td>
+      <td><a href="domains/backend">Explore Backend</a></td>
+      <td><a href=".gitbook/assets/backend.jpg">backend.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-brain" style="color:$primary;">:brain:</i></h4></td>
+      <td><strong>Machine Learning & AI</strong></td>
+      <td>Friendly guides to neural networks, model training, and LLM orchestration.</td>
+      <td><a href="domains/ml">Explore ML</a></td>
+      <td><a href=".gitbook/assets/ml.jpg">ml.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-cloud" style="color:$primary;">:cloud:</i></h4></td>
+      <td><strong>DevOps & Cloud</strong></td>
+      <td>Containers, CI/CD pipelines, Kubernetes, and infrastructure as code.</td>
+      <td><a href="domains/devops">Explore DevOps</a></td>
+      <td><a href=".gitbook/assets/devops.jpg">devops.jpg</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-sitemap" style="color:$primary;">:sitemap:</i></h4></td>
+      <td><strong>System Design</strong></td>
+      <td>Learn high availability, caching, load balancing, and scalable architecture.</td>
+      <td><a href="domains/system-design">Explore Design</a></td>
+      <td><a href=".gitbook/assets/system-design.jpg">system-design.jpg</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 {% columns %}
 {% column width="50%" %}
-## Get started in minutes
+## Learn by Doing
 
-Make your first API call in under 5 minutes.
+Jump straight into real code examples designed for absolute beginners and seasoned engineers alike.
 
-This quickstart walks through the basic setup: create an account, generate an API key, and send a test request. The examples use the same request in several languages, so you can start with the one that matches your stack.
+Our guides break down complex computer science concepts into clear visual explanations, bite-sized code snippets, and hands-on exercises.
 
 {% hint style="info" icon="sparkle" %}
-**Customize your first request**
+**Not sure where to begin?**
 
-Explain what you're building and let AI tweak your quickstart.
+Tell us your goal and let AI map out your customized learning track.
 
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">What are you building?</button>
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">What do you want to build?</button>
 {% endhint %}
 
 {% hint style="warning" icon="life-ring" %}
-**Need some help?**
+**Stuck on a concept?**
 
-Troubleshoot common issues or ask for help.
+Troubleshoot common programming roadblocks.
 
 <details>
+<summary>Which domain should I choose first?</summary>
 
-<summary>I get a 401 Unauthorized error</summary>
-
-Check that your API key is present and valid.
-
-Make sure you replaced `YOUR_API_KEY` in the example.
-
-Confirm the `Authorization` header uses `Bearer YOUR_API_KEY`.
-
+If you like visual feedback, start with **Frontend**. If you like logic and data processing, start with **Backend** or **Python**.
 </details>
 
 <details>
+<summary>I don't have any prior coding experience</summary>
 
-<summary>I get a 400 Bad Request error</summary>
-
-Check your request body first.
-
-Make sure the JSON is valid and the `message` field is included.
-
-Also confirm you send `Content-Type: application/json`.
-
+Head over to our **No-Code & Fundamentals** guide first. It explains basic programming logic using visual diagrams before diving into syntax.
 </details>
 
 <details>
+<summary>How can I test the code locally?</summary>
 
-<summary>The request succeeds, but the result is not what I expect</summary>
-
-Start with the sample payload before testing custom input.
-
-Check the response `status` field to confirm whether the request was only queued.
-
-If you change the payload shape, verify the endpoint accepts those fields.
-
+Every code block in our docs includes environment setup instructions for Windows, macOS, and Linux, plus links to online sandboxes.
 </details>
 
-<details>
-
-<summary>My local example does not run</summary>
-
-Check that your runtime and dependencies are installed.
-
-For JavaScript, install the SDK before running the example.
-
-For Python, make sure `requests` is available in your environment.
-
-</details>
-
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Explain what's happening...</button>
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask for learning advice...</button>
 {% endhint %}
 
-With your first request done, use the guides for deeper setup and the API reference for endpoints and parameters.
+Ready to dive in? Choose your preferred track below or browse the full reference documentation.
 
-<a href="https://app.gitbook.com/s/v5aJLZsRK3QLZFZGuooq/getting-started/getting-started" class="button primary" data-icon="rocket-launch">Get started</a> <a href="https://app.gitbook.com/o/fSOkApCvgGWsQgR9gt1K/s/CQLXP7MLRTOAn8doz01q/" class="button secondary" data-icon="terminal">API reference</a>
+<a href="getting-started/quickstart" class="button primary" data-icon="rocket-launch">Start Learning</a>
+<a href="guides/overview" class="button secondary" data-icon="book-open">Browse All Docs</a>
 
-&#x20;
-
-&#x20;
 {% endcolumn %}
 
 {% column width="50%" %}
 {% stepper %}
 {% step %}
-#### Create your API key
+#### Pick Your Track
 
-Set up your account, then generate an API key for local testing and your first integration.
-
-<a href="http://app.gitbook.com/join" class="button primary">Sign up</a><a href="http://app.gitbook.com/join" class="button secondary">Log in</a>
+Choose from Frontend, Backend, Machine Learning, DevOps, or System Design.
 {% endstep %}
 
 {% step %}
-#### Make your first request
+#### Write Your First Script
 
-Pick a language below, replace `YOUR_API_KEY`, and run.
+Follow along with interactive examples in your browser or locally.
 
 {% tabs %}
-{% tab title="JavaScript" %}
-{% code overflow="wrap" %}
-```javascript
-// Import the SDK
-import ExampleAPI from "example-api";
-
-// Initialize the client
-const client = new ExampleAPI({ apiKey: "YOUR_API_KEY" });
-
-// Send your first message
-const response = await client.messages.send({
-  message: "Hello, world!"
-});
-```
-{% endcode %}
-{% endtab %}
-
 {% tab title="Python" %}
 {% code overflow="wrap" %}
 ```python
-import requests
+# Your first Python script on code4fun
+def welcome(name):
+    return f"Welcome to code4fun, {name}! Let's build something awesome."
 
-response = requests.post(
-    "https://api.example.com/messages",
-    headers={
-        "Authorization": "Bearer YOUR_API_KEY",
-        "Content-Type": "application/json",
-    },
-    json={
-        "message": "Hello, world!"
-    },
-)
-
-print(response.json())
+print(welcome("Learner"))
 ```
 {% endcode %}
 {% endtab %}
 
-{% tab title="cURL" %}
+{% tab title="JavaScript" %}
 {% code overflow="wrap" %}
-```bash
-curl -X POST https://api.example.com/messages \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "message": "Hello, world!"
-  }'
+```javascript
+// Quick web script
+const greetUser = (name) => {
+  console.log(`Welcome to code4fun, ${name}!`);
+};
+
+greetUser("Learner");
 ```
 {% endcode %}
 {% endtab %}
@@ -190,36 +222,10 @@ curl -X POST https://api.example.com/messages \
 ```go
 package main
 
-import (
-    "bytes"
-    "fmt"
-    "io"
-    "net/http"
-)
+import "fmt"
 
 func main() {
-    body := []byte(`{"message":"Hello, world!"}`)
-
-    req, err := http.NewRequest("POST", "https://api.example.com/messages", bytes.NewBuffer(body))
-    if err != nil {
-        panic(err)
-    }
-
-    req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
-    req.Header.Set("Content-Type", "application/json")
-
-    resp, err := http.DefaultClient.Do(req)
-    if err != nil {
-        panic(err)
-    }
-    defer resp.Body.Close()
-
-    responseBody, err := io.ReadAll(resp.Body)
-    if err != nil {
-        panic(err)
-    }
-
-    fmt.Println(string(responseBody))
+    fmt.Println("Welcome to code4fun! Fast, simple, and intuitive learning.")
 }
 ```
 {% endcode %}
@@ -228,51 +234,46 @@ func main() {
 {% endstep %}
 
 {% step %}
-#### Parse the response
+#### Build & Contribute
 
-If the request succeeds, you should get a response like this:
-
-{% code title="response.json" overflow="wrap" %}
-```json
-{
-  "id": "msg_1234567890",
-  "message": "Hello, world!",
-  "status": "queued",
-  "createdAt": "2026-01-01T12:00:00Z"
-}
-```
-{% endcode %}
+Apply what you learned by building real projects, or contribute your own tutorial to the community!
 {% endstep %}
 {% endstepper %}
 {% endcolumn %}
 {% endcolumns %}
 
-&#x20;
+---
 
-&#x20;
+<h2 align="center">Join the code4fun Community</h2>
+<p align="center">Connect with fellow learners, get mentor support, or contribute to our shared documentation platform.</p>
 
-{% columns %}
-{% column width="50%" %}
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-
-{% column width="50%" valign="middle" %}
-## Learn more about the developer platform
-
-Read guides, watch tutorials, and learn more about working with the developer platform and integrating it with your own stack.
-
-<a href="https://app.gitbook.com/s/v5aJLZsRK3QLZFZGuooq/guides/guides" class="button primary" data-icon="book-open">Guides</a> <a href="https://app.gitbook.com/s/v5aJLZsRK3QLZFZGuooq/" class="button secondary" data-icon="book">Documentation</a>
-{% endcolumn %}
-{% endcolumns %}
-
-&#x20;
-
-&#x20;
-
-<h2 align="center">Join a community of over 3,000 developers</h2>
-
-<p align="center">Join our Discord community or create your first PR in just a few steps.</p>
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-discord">:discord:</i></h4></td><td><strong>Discord community</strong></td><td>Join our Discord community to post questions, get help, and share resources with over 3,000 like-minded developers.</td><td><a href="https://www.gitbook.com/" class="button secondary">Join Discord</a></td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr><tr><td><h4><i class="fa-github">:github:</i></h4></td><td><strong>GitHub</strong></td><td>Our product is 100% open source and built by developers just like you. Head to our GitHub repository to learn how to submit your first PR.</td><td><a href="https://github.com/GitbookIO/gitbook-templates" class="button secondary">Submit a PR</a></td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr></tbody></table>
-
-&#x20;
+<table data-card-size="large" data-view="cards">
+  <thead>
+    <tr>
+      <th>Icon</th>
+      <th>Platform</th>
+      <th>Description</th>
+      <th>Action</th>
+      <th data-hidden data-card-cover data-type="files">Cover</th>
+      <th data-hidden data-card-target data-type="content-ref">Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4><i class="fa-discord">:discord:</i></h4></td>
+      <td><strong>Discord Community</strong></td>
+      <td>Join our Discord to ask questions, work through bug fixes together, and join live learning sessions.</td>
+      <td><a href="https://discord.gg/code4fun" class="button secondary">Join Discord</a></td>
+      <td></td>
+      <td><a href="https://discord.gg/code4fun">https://discord.gg/code4fun</a></td>
+    </tr>
+    <tr>
+      <td><h4><i class="fa-github">:github:</i></h4></td>
+      <td><strong>Open Source Docs</strong></td>
+      <td>code4fun is driven by the community. Help us make programming documentation friendlier for everyone by submitting a PR.</td>
+      <td><a href="https://github.com/code4fun/docs" class="button secondary">Contribute on GitHub</a></td>
+      <td></td>
+      <td><a href="https://github.com/code4fun/docs">https://github.com/code4fun/docs</a></td>
+    </tr>
+  </tbody>
+</table>
