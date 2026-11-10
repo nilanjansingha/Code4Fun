@@ -123,7 +123,7 @@ Whether you're writing your very first line of code or scaling distributed micro
       <td><h4><i class="fa-server" style="color:#2563eb;">:server:</i></h4></td>
       <td><strong>Backend Engineering</strong></td>
       <td>Design APIs, authentication, and database schemas with Node.js, Go, and Python.</td>
-      <td><a href="domains/backend.md">Explore Backend</a></td>
+      <td><a href="domains/backend">Explore Backend</a></td>
       <td><a href=".gitbook/assets/backend.jpg">backend.jpg</a></td>
     </tr>
     <tr>
